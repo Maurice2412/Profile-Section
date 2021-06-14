@@ -1,0 +1,44 @@
+.body{
+       font-family:sans-serif;
+       background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg), url(bg-pattern-top.svg);
+       background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+
+}
+
+.card {
+    margin-top: 40px;
+    background-color: cornsilk;
+    padding-top: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    max-height: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .card img {
+
+    border-radius: 50%;
+    }
+    .game-stat{
+      font-size:1.2rem;
+      text-align:center;
+      span{
+        display:block;
+        font-size:.8rem;
+      }
+    }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+ 
+  
